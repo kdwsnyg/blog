@@ -1,0 +1,52 @@
+/*清除默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(247, 247, 247);
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/*导航条*/
+.navbar {
+    height: 60px;
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 5px rgb(237, 237, 237);
+}
+
+.nav-container {
+    display: flex;
+    
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    align-self: center;
+
+    padding: 15px;
+    padding-left: 0;
+}
+
+.nav-items {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+.nav-items > li {
+    margin: 15px;
+}
+
+.nav-items .active,
+.nav-item:hover {
+    color: #3273dc;
+}
