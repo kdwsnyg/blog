@@ -18,6 +18,8 @@ ul {
 .navbar {
     height: 60px;
 
+    margin-bottom: 30px;
+
     background-color: rgb(255, 255, 255);
     box-shadow: 0 5px 5px rgb(237, 237, 237);
 }
@@ -25,7 +27,7 @@ ul {
 .nav-container {
     display: flex;
     
-    width: 90%;
+    width: 88%;
     height: 100%;
     margin: 0 auto;
 }
@@ -50,3 +52,61 @@ ul {
 .nav-item:hover {
     color: #3273dc;
 }
+
+/*边栏及内容区*/
+.container {
+    display: grid;
+    grid-template-columns: 22% 50% 15%;
+
+    width: 88%;
+    margin: 0 auto; 
+}
+
+/*左边栏博主区*/
+.blogger {
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(237, 237, 237);
+    border-radius: 5px;
+}
+
+.blogger {
+    padding: 30px;
+}
+
+.avatar {
+    display: block;
+
+    width: 120px;
+    margin: 0 auto;
+}
+
+.information {
+    margin: 20px 0;
+}
+
+.name,
+.profession,
+.location {
+    text-align: center;
+    margin: 5px 0;
+}
+.name {
+    font-size: 20px;
+}
+
+.about-me {
+    display: block;
+    height: 30px;
+
+    text-align: center;
+    line-height: 30px;
+
+    border-radius: 15px;
+    background-color: rgb(50,115,220);
+    color: #fff;
+}
+
+/*左边栏博客索引区*/
+/*内容区*/
+/*右边栏更新列表*/
+/*右边栏档案馆*/
