@@ -4,7 +4,6 @@
     padding: 0;
 }
 body {
-    height: 2000px;
     background-color: rgb(247, 247, 247);
 }
 a {
@@ -57,7 +56,7 @@ ul {
 /*边栏及内容区*/
 .container {
     display: grid;
-    grid-template-columns: 22% 50% 15%;
+    grid-template-columns: 23% 51% 23%;
     column-gap: 20px;
 
     width: 88%;
@@ -118,7 +117,7 @@ ul {
     padding: 30px 20px;
 }
 
-.blog-index > header {
+.sidecard-headers {
     margin-bottom: 20px;
     padding: 0 5px;
 
@@ -201,5 +200,38 @@ ul {
 .read-more:hover {
     background-color: rgb(236, 236, 236);
 }
+
 /*右边栏更新列表*/
+.recent { 
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(237, 237, 237);
+    border-radius: 5px;
+}
+
+.recent {
+    padding: 30px 20px 20px;
+}
+
+.recent-blog {
+    display: flex;
+
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.recent-inform {
+    margin-left: 15px;
+}
+
+.recent-date {
+    font-size: 12px;
+    color: rgb(122,122,122);
+}
+
+.recent-title {
+    padding: 3px 0;
+    line-height: 25px;
+}
 /*右边栏档案馆*/
