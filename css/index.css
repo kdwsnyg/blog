@@ -202,7 +202,8 @@ ul {
 }
 
 /*右边栏更新列表*/
-.recent { 
+.recent,
+.archive { 
     margin: 20px 0;
     background-color: #fff;
     box-shadow: 0 0 5px 5px rgb(237, 237, 237);
@@ -234,4 +235,18 @@ ul {
     padding: 3px 0;
     line-height: 25px;
 }
+
 /*右边栏档案馆*/
+.archive {
+    padding: 30px 20px;
+}
+
+.blog-amount {
+    float: right;
+    padding: 2px 8px;
+
+    font-size: 12px;
+
+    background-color: rgb(245,245,245);
+    border-radius: 5px;
+}
