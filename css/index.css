@@ -177,12 +177,6 @@ ul {
 
     overflow: hidden;
 }
-.blog-summary::after {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    content: '...';
-}
 
 .read-more {
     display: block;
