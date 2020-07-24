@@ -235,6 +235,9 @@ ul {
     padding: 3px 0;
     line-height: 25px;
 }
+.recent-title a:hover {
+    color: #3273dc;
+}
 
 /*右边栏档案馆*/
 .archive {
