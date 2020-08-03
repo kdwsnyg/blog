@@ -1,112 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+  </head>
+
+  <body>
     <!--导航条-->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo-container">
-                <a href="index.html"><img src="images/logo.jpg" alt="logoImage"></a>
-            </div>
-            <ul class="nav-items">
-                <li>
-                    <a class="nav-item active" href="index.html">首页</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="javascript:;">档案</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="javascript:;">博客</a>
-                </li>
-                <li>
-                    <a class="nav-item" href="javascript:;">关于我</a>
-                </li>
-            </ul>
+      <div class="nav-container">
+        <div class="logo-container">
+          <a href="index.html"><img src="images/logo.jpg" alt="logoImage"></a>
         </div>
+        <ul class="nav-items">
+          <li>
+            <a class="nav-item active" href="index.html">首页</a>
+          </li>
+          <li>
+            <a class="nav-item" href="javascript:;">档案</a>
+          </li>
+          <li>
+            <a class="nav-item" href="javascript:;">博客</a>
+          </li>
+          <li>
+            <a class="nav-item" href="javascript:;">关于我</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
+  
     <!--边栏及内容区-->
     <div class="container">
-        <!--左边栏-->
-        <aside class="sidebar-left">
-            <!--博主区-->
-            <div class="blogger">
-                <div class="avatar-wrapper">
-                    <img class="avatar" src="images/avatar.jpg" alt="avatar">
-                </div>
-                <div class="information">
-                    <p class="name">鞠乐</p>
-                    <p class="profession">前端开发工程师</p>
-                    <p class="location">吉林省吉林市</p>
-                </div>
-                <div class="about-me-wrapper">
-                    <a class="about-me" href="javascript:;">了解我</a>
-                </div>
+      <!--左边栏-->
+      <aside class="sidebar-left">
+        <!--博主区-->
+        <div class="blogger">
+          <div class="avatar-wrapper">
+            <img class="avatar" src="images/avatar.jpg" alt="avatar">
+          </div>
+          <div class="information">
+            <p class="name">鞠乐</p>
+            <p class="profession">前端开发工程师</p>
+            <p class="location">吉林省吉林市</p>
+          </div>
+          <div class="about-me-wrapper">
+            <a class="about-me" href="javascript:;">了解我</a>
+          </div>
+        </div>
+        <!--博客索引-->
+        <div class="blog-index">
+          <header class="sidecard-headers">所有博客</header>
+          <p><a class="index" href="javascript:;">博客1</a></p>
+          <p><a class="index" href="javascript:;">博客2</a></p>
+          <p><a class="index" href="javascript:;">博客3</a></p>
+          <p><a class="index" href="javascript:;">博客4</a></p>
+        </div>
+      </aside>
+      <!--内容区-->
+      <main class="contents">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img class="card-img" src="images/card-img/2020-7-22.jpg" alt="图片">
+          </div>
+          <div class="card-content">
+            <div class="create-date">2020年7月22日</div>
+            <h2 class="blog-title">Git基础概念摘抄</h2>
+            <p class="blog-summary">
+              这篇文章将从介绍有关版本控制工具的一些背景知识开始，然后讲解如何在系统运行 Git，最后是关于如何设置 Git 开始工作。 通过本章的学习，了解为什么 Git 这么流行，为什么要使用 Git 以及应该如何设置以便使用
+              Git。
+            </p>
+            <div><a class="read-more" href="pages/article1.html">了解更多</a></div>
+          </div>
+        </div>
+      </main>
+      <!--右边栏-->
+      <aside class="sidebar-right">
+        <!--最近更新-->
+        <div class="recent">
+          <header class="sidecard-headers">最近更新</header>
+          <div class="recent-blog">
+            <div class="thumb-wrapper">
+              <img class="thumb" src="images/card-imgthumb/2020-7-22.jpg" alt="图片">
             </div>
-            <!--博客索引-->
-            <div class="blog-index">
-                <header class="sidecard-headers">所有博客</header>
-                <p><a class="index" href="javascript:;">博客1</a></p>
-                <p><a class="index" href="javascript:;">博客2</a></p>
-                <p><a class="index" href="javascript:;">博客3</a></p>
-                <p><a class="index" href="javascript:;">博客4</a></p>
+            <div class="recent-inform">
+              <div class="recent-date">2020年7月22日</div>
+              <div class="recent-title">
+                <a href="pages/article1.html">Git基础概念摘抄</a>
+              </div>
             </div>
-        </aside>
-        <!--内容区-->
-        <main class="contents">
-            <div class="card">
-                <div class="card-img-wrapper">
-                    <img class="card-img" src="images/card-img/2020-7-22.jpg" alt="图片">
-                </div>
-                <div class="card-content">
-                    <div class="create-date">2020年7月22日</div>
-                    <h2 class="blog-title">Git基础概念摘抄</h2>
-                    <p class="blog-summary">
-                        这篇文章将从介绍有关版本控制工具的一些背景知识开始，然后讲解如何在系统运行 Git，最后是关于如何设置 Git 开始工作。 通过本章的学习，了解为什么 Git 这么流行，为什么要使用 Git 以及应该如何设置以便使用 Git。
-                    </p>
-                    <div><a class="read-more" href="pages/article1.html">了解更多</a></div>
-                </div>
-            </div>
-        </main>
-        <!--右边栏-->
-        <aside class="sidebar-right">
-            <!--最近更新-->
-            <div class="recent">
-                <header class="sidecard-headers">最近更新</header>
-                <div class="recent-blog">
-                    <div class="thumb-wrapper">
-                        <img class="thumb" src="images/card-imgthumb/2020-7-22.jpg" alt="图片">
-                    </div>
-                    <div class="recent-inform">
-                        <div class="recent-date">2020年7月22日</div>
-                        <div class="recent-title">
-                            <a href="pages/article1.html">Git基础概念摘抄</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="recent-blog"></div>
-                <div class="recent-blog"></div>
-                <div class="recent-blog"></div>
-            </div>
-            <!--档案馆-->
-            <div class="archive">
-                <header class="sidecard-headers">档案馆</header>
-                <p>
-                    <a class="index" href="javascript:;">
-                        <span>2020年7月</span>
-                        <span class="blog-amount">1</span>
-                    </a>
-                </p>
-                <p><a class="index" href="javascript:;"></a></p>
-                <p><a class="index" href="javascript:;"></a></p>
-                <p><a class="index" href="javascript:;"></a></p>
-            </div>
-        </aside>
+          </div>
+          <div class="recent-blog"></div>
+          <div class="recent-blog"></div>
+          <div class="recent-blog"></div>
+        </div>
+        <!--档案馆-->
+        <div class="archive">
+          <header class="sidecard-headers">档案馆</header>
+          <p>
+            <a class="index" href="javascript:;">
+              <span>2020年7月</span>
+              <span class="blog-amount">1</span>
+            </a>
+          </p>
+          <p><a class="index" href="javascript:;"></a></p>
+          <p><a class="index" href="javascript:;"></a></p>
+          <p><a class="index" href="javascript:;"></a></p>
+        </div>
+      </aside>
     </div>
-</body>
+  </body>
+
 </html>
